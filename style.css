@@ -1,0 +1,355 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+/* Basic styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #171616!important;
+  background-color: #171616!important;
+  overflow-x: hidden;
+}
+/* Nav bar */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, .3)!important;
+  height:5rem;
+}
+
+.navbar-brand img {
+  height: 2.125rem;
+  position: absolute;
+  margin-top: -1rem;
+}
+
+.navbar-nav li {
+  padding-right: 1.4rem;
+  float: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(156, 156, 156)!important;
+  padding-top: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(231, 231, 231)!important;
+  transition: all 300ms ease;
+}
+
+
+.navbar-dark .navbar-nav .nav-item-color {
+  color: rgb(212, 212, 212)!important;
+}
+
+.navbar-dark .navbar-nav .nav-item-color:hover {
+}
+
+.button{
+  background-color:transparent;
+  border-radius: .5rem;
+  border: solid rgb(60, 184, 255) 2px;
+}
+.button:hover{
+  background-color: rgb(32, 187, 214);
+  color:white;
+}
+
+/* Jumbotron and it's contents */
+.landing{
+  background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.22)), url(img/150507_olympic_details_002.jpg);
+  height: 40rem;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  background-position: bottom;
+  background-attachment: fixed;
+  z-index: -1000;
+  min-height: 40rem;
+
+}
+
+#blackOverlay {
+  z-index: 10;
+  background-color:#000;opacity:0.0;position:absolute;top:0;width:100%;height:100%;
+}
+
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  animation: fadeIn 2s;
+  z-index: -1000;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  color:rgb(156, 156, 156)!important;
+  margin-top: -1rem;
+}
+
+.info-col{
+  display: flex;
+  flex-direction: column;
+  padding-left: 7rem;
+}
+.landing-info{
+  color:rgb(83, 83, 83)!important;
+  width: 45%;
+  text-shadow: .1rem .1rem .8rem black;
+  margin-top: -.5rem;
+}
+/*
+.arrow{
+  position: absolute;
+  z-index: 1000000;
+  margin-top: 20rem;
+}
+.arrow-container{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 35rem;
+}
+.arrow {
+  box-sizing: border-box;
+  height: 2vw;
+  width: 2vw;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  z-index: 1000;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+/* Section 1 and content */
+.section{
+  height: 30rem;
+  background-color: #171616!important;
+  box-shadow: 0px 17px 25px 25px #171616;
+  z-index: 1000;
+}
+
+.section-title{
+  color:white;
+  position: absolute;
+  margin-top: 5rem;
+}
+
+.section-info{
+  color:grey;
+  line-height: 1.8rem;
+  width: 70%;
+  margin-top: 9rem;
+  font-size: .9rem;
+}
+
+.info-container{
+  margin-left: 5rem;  
+  display: flex;
+  flex-direction: column;
+}
+
+.image-card{
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  position: relative;
+  left: -8rem;
+  top: 5rem;
+}
+
+.image-card2{
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  position: relative;
+  left: -5rem;
+  top: 5rem;
+}
+
+.total-container{
+  display: flex;
+  flex-direction: row;
+}
+/* Section 2 and content 
+.image-background{
+  height: 30rem;
+  width: 30rem;
+}
+*/
+.image-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/AboutCard2.jpg) no-repeat;
+  background-size: cover;
+  height: 32rem;
+  width: 100%;
+  min-width: 100%;
+  min-height: 32rem;
+  position: absolute;
+
+}
+
+.image-title{
+  color:white;
+
+}
+
+
+/* Section 3 and it's content */
+.section-3{
+  height: 70rem;
+  min-height: 70rem;
+}
+
+/**** Timline Styles****/
+
+/* Footer Section*/
+.lower-footer{
+  margin-top:.3rem;
+}
+footer{
+  position: relative;
+}
+.footer-distributed {
+  background-color: #1a1919;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+/**** FOOTER MEDIA QUERIES ****/
+@media (max-width:889px) {
+  .caption h1{
+    font-size: 3rem;
+  }
+  .caption h3{
+    font-size: 2rem;
+    margin-left: -.6rem;
+  }
+  .landing-info{
+    font-size: .9rem;
+    width: 70%;
+  }
+}
+
+@media (max-width:767px) {
+  .caption h1{
+    text-align: center;
+  }
+  .caption h3{
+    text-align: center;
+  }
+  .landing-info{
+    text-align: center;
+    margin-left: 13%;
+  }
+  .info-col{
+    margin-left: -6%;
+  }
+}
