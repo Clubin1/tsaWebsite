@@ -1,4 +1,5 @@
 /* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
 /* Basic styling */
 * {
@@ -73,7 +74,7 @@ body {
 }
 /* Landing Section*/
 .landing-container{
-  background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.40)), url(img/150507_olympic_details_002.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.40)), url(img/tsaimg.jpg);
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -152,12 +153,9 @@ body {
 .img-row{
   height: 15rem;
   width: 20rem;
+  margin-left: 4%;
 }
 
-.total-wrapper{
-  display: flex;
-  flex-direction: row;
-}
 .tsa-col{
   flex-direction: column;
   display: flex;
@@ -193,6 +191,7 @@ body {
   font-style: italic;
 
 }
+
 .center-text{
   display:flex;
   justify-content: center;
@@ -227,7 +226,7 @@ body {
 .timeline-section{
   height: 45rem;
   min-height: 45rem;
-  background-color: #252525!important;
+  background-color: #ff0000!important;
 }
 /* Footer Section*/
 .lower-footer{
@@ -433,7 +432,6 @@ html {
 body {
   font-family: "Ubuntu", sans-serif;
   color: #fff;
-  background-color: #261C21;
 }
 
 section{
@@ -684,7 +682,7 @@ Main Components
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
-  color:rgb(129, 129, 129);
+  color:rgb(65, 65, 65);
 }
 
 .cd-horizontal-timeline .events-content li {
@@ -1052,7 +1050,10 @@ h3.gfx-header {
 }
 .sub-title{
   position: relative;
-  top: 6rem;
+  top: 7.3rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .8rem rgba(0, 0, 0, .7);
 }
 .card-content a {
   text-decoration: none;
@@ -1072,52 +1073,23 @@ h3.gfx-header {
 }
 
 /***** Media queries ******/
-@media (max-width: 1337px) {
-  .graphic-section, .website-section, .development-section{
-    height: 65rem;
-    min-height: 65rem;
+@media (max-width: 1674px) {
+  .gfxdesgin-wrapper{
+    width: 80%!important;
   }
 }
+
+@media (max-width: 1256px) {
+  .gfxdesgin-wrapper{
+    width: 100%!important;
+  }
+}
+
 
 @media (max-width: 667px) {
   .graphic-section, .website-section, .development-section{
     height: 130rem;
     min-height: 130rem;
-  }
-}
-
-@media (max-width:800px) {
-  .stem-image{
-    width: 30rem;
-    height: 7rem;
-    min-height: 7rem;
-  }
-  .section-info-1,.section-info{
-    font-size: .8rem;
-  }
-}
-@media (max-width:781px) {
-  .total-container-1{
-    display: flex;
-    flex-direction: column;
-  }
-  .stem-image-1{
-    display: none;
-  }
-}
-
-@media(max-width:600px) {
-  .stem-image{
-    width: 20rem;
-    height: 5rem;
-    min-height: 5rem;
-  }
-}
-
-@media(max-width:500px) {
-  .section-info{
-    font-size: .8rem;
-    width: 80%;
   }
 }
 
@@ -1136,28 +1108,6 @@ h3.gfx-header {
   }
   .caption h3{
     font-size: 1.6rem;
-  }
-}
-
-@media(max-width:415px) {
-  .title-underline{
-    width: 17rem;
-    min-width: 17rem;
-  }
-  .stem-title-image{
-    font-size: 1.9rem;
-  }
-  .stem-mini-title{
-    font-size: 1.2rem;
-  }
-  .stem-image{
-    width: 15rem;
-    height: 4.2rem;
-    min-height: 4.2rem;
-  }
-  .section-info{
-    line-height: 1.3rem;
-
   }
 }
 @media (max-width: 490px) {
@@ -1182,18 +1132,55 @@ h3.gfx-header {
   }
 }
 
-@media (max-width:460px) {
-  .section-info-1{
-    margin-top: 7.5rem;
-  }
-  .section-info{
-    margin-top: 7.5rem;
+@media(max-width:1000px){
+  .img-row{
+    height: 10rem;
+    width: 14rem;
   }
 }
 
-@media(max-width:360px) {
-  .section-info-1{
-    width: 100%;
-    min-width: 100%;
+@media(max-width:768px){
+  .info, .info-values{
+    font-size: .8rem;
+  }
+}
+
+@media(max-width:600px){
+  .info, .info-values{
+    font-size: .8rem;
+    text-align: center;
+  }
+  .img-row{
+    display: none;
+  }
+}
+
+@media(max-width:498px){
+  .info, .info-values{
+    font-size: .9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media(max-width:387px){
+  .info, .info-values, .gfx-info{
+    font-size: .7rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media(max-width:500px){
+  .info-title, .section-title, .gfx-header{
+    font-size: 1.6rem;
+  }
+  .tsa-img{
+    height:8rem;
+    width: 12rem;
+  }
+}
+
+@media(max-width:500px){
+  .section-2{
+    margin-top: 1rem;
   }
 }
