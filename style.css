@@ -73,7 +73,6 @@ body {
   background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.19)), url(img/150507_olympic_details_002.jpg);
   height: 40rem;
   width: 100vw;
-  background-size: cover;
   position: relative;
   background-position: bottom;
   z-index: -1000;
