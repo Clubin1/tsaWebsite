@@ -1,4 +1,5 @@
 /* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
 /* Basic styling */
 * {
@@ -11,6 +12,7 @@ body {
   background-color: #171616!important;
   overflow-x: hidden;
 }
+
 /* Nav bar */
 .navbar {
   text-transform: uppercase;
@@ -43,7 +45,6 @@ body {
   transition: all 300ms ease;
 }
 
-
 .navbar-dark .navbar-nav .nav-item-color {
   color: rgb(255, 255, 255)!important;
 }
@@ -63,26 +64,26 @@ body {
 
 .row-container{
   display: flex;
-  flex-direction: row;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
 .img-container{
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/engineering-blueprint.jpg) no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 50%;
-  min-width: 50%;
+  height: 110vh;
+  width: 110%;
+  min-width: 100%;
   min-height: 100vh;
   position: relative;
-  border-right: #c4c4c4 solid 3px;
+  margin-left: -1rem;
+  margin-top: -1rem;
 }
 
 .col-container{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: auto;
@@ -91,8 +92,9 @@ body {
 
 .card-container{
   height: 12rem;
-  background-color:white;
-  border-bottom: #dfdfdf solid 2px;
+  background-color:rgb(20, 20, 20);
+  border-bottom: #292929 solid 2px;
+  color:white;
 }
 
 .info{
@@ -202,5 +204,18 @@ body {
     }
     .footer-distributed .footer-left p.footer-links {
       line-height: 1.8;
+    }
+  }
+
+  @media(max-width:798px) {
+    .row-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .img-container{
+      width: 100%;
+      min-width: 100%;
+    }
+    .col-container{
     }
   }
