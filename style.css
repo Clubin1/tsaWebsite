@@ -71,12 +71,10 @@ body {
 /* Jumbotron and it's contents */
 .landing{
   background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.19)), url(img/150507_olympic_details_002.jpg);
-  height: 40rem;
+  height: 100vh;
   width: 100vw;
   position: relative;
-  background-position: bottom;
   z-index: -1000;
-  min-height: 40rem;
 }
 
 #blackOverlay {
