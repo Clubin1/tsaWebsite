@@ -74,7 +74,7 @@ body {
 }
 /* Landing Section*/
 .home-inner{
-  background-image: url(img/tsaimg.jpg);
+  background-image: url(./img/tsaimg.jpg);
   z-index: 1000;
 }
 
