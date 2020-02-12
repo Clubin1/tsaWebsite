@@ -75,6 +75,7 @@ body {
   width: 100vw;
   position: relative;
   z-index: -1000;
+  min-height: 100vh;
 }
 
 #blackOverlay {

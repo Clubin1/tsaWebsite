@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     document.getElementById("navBar").style.height = "4.5rem";
     document.getElementById("navBar").style.setProperty("background-color", "rgba(0, 0, 0, .7)", "important");
   } else {
