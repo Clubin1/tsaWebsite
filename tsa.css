@@ -12,8 +12,7 @@ body {
   background-color: #171616!important;
   overflow-x: hidden;
 }
-html{
-}
+
 
 #blackOverlay {
   z-index: 10!important;
@@ -94,7 +93,7 @@ html{
 }
 /* Landing Heading1 */
 .caption h1 {
-  font-size: .8rem;
+  font-size: 3.8rem;
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
@@ -102,7 +101,7 @@ html{
 }
 /* Landing Heading3 */
 .caption h3 {
-  font-size: 1rem;
+  font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
 }

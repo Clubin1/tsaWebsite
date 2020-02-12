@@ -1,0 +1,522 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+/* Basic styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #171616!important;
+  background-color: #171616!important;
+  overflow-x: hidden;
+}
+
+/* Nav bar */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgb(255, 255, 255)!important;
+  box-shadow: 0 5px 5px -2px rgba(0,0,0,.1);
+}
+
+#navBar{
+    height: 6rem;
+    transition: all 150ms ease;
+    background-color: rgb(255, 255, 255)!important;
+    font-size: 1rem!important;
+  
+  }
+
+.navbar-brand img {
+  height: 2.125rem;
+  position: absolute;
+  margin-top: -1rem;
+}
+
+.navbar-nav li {
+  padding-right: 1.4rem;
+  float: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #3d3d3d!important;
+  padding-top: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #505050!important;
+  transition: all 300ms ease;
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-item-color {
+  color: #3d3d3d!important;
+}
+
+.navbar-dark .navbar-nav .nav-item-color:hover {
+    color: rgb(255, 0, 149)!important;
+}
+
+.button{
+  background-color:transparent;
+  border-radius: .5rem;
+  border: solid rgb(60, 184, 255) 2px;
+}
+.button:hover{
+  background-color: rgb(32, 187, 214);
+  color:white;
+}
+
+/* Landing Image */
+.home-inner{
+    background-image: url(img/car-1.jpg);
+    opacity: .7;
+  }
+  /* Landing Text */
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    animation: fadeIn 2s;
+    text-transform: uppercase;
+  }
+  /* Landing Heading1 */
+  .caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+  }
+  /* Landing Heading3 */
+  .caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+  }
+
+.btn{
+    color:rgb(255, 255, 255);
+    border-radius: 0;
+    border:#ffffff 2px solid;
+  }
+  .btn:hover{
+    background-color:#ff237e;
+    color:rgb(255, 255, 255);
+    border:#ff237e 2px solid;
+
+  }
+  /*Section 1*/
+  .section-1{
+      height: 30rem;
+      min-height: 30rem;
+      background-color:white;
+      border-bottom: 2px solid rgb(219, 219, 219);
+  }
+  .section-2{
+    background-image: url(img/car-1.jpg);
+    height: 20rem;
+  }
+  .car-section{
+      height: 40rem;
+      background-color: #ffffff;
+  }
+/* Footer Section*/
+.lower-footer{
+    margin-top:.3rem;
+  }
+  footer{
+    position: relative;
+  }
+  .footer-distributed {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #3d3d3d;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d3d3d;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: rgb(255, 0, 149);
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #ff237e;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
+
+  @media(max-width:798px) {
+    .row-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .img-container{
+      width: 100%;
+      min-width: 100%;
+    }
+    .col-container{
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+  
+  .contact-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+  }
+  .contact-title{
+      position: relative;
+      top:4rem
+  }
+  #contact-wrapper{
+    background-color: #e6e6e6!important;
+  }
+  #con input[type="text"],
+  #con input[type="email"],
+  #con input[type="tel"],
+  #con input[type="url"],
+  #con textarea,
+  #con button[type="submit"] {
+    font: 400 12px/16px "Raleway", Helvetica, Arial, sans-serif;
+  }
+  
+  #con{
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    top: rem;
+    position: relative;
+  }
+  
+  #con h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #con h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #con input[type="text"],
+  #con input[type="email"],
+  #con input[type="tel"],
+  #con input[type="url"],
+  #con textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #con input[type="text"]:hover,
+  #con input[type="email"]:hover,
+  #con input[type="tel"]:hover,
+  #con input[type="url"]:hover,
+  #con textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid rgb(255, 58, 124);
+  }
+  
+  #con input[type="text"]:focus,
+  #con input[type="email"]:focus,
+  #con input[type="tel"]:focus,
+  #con input[type="url"]:focus,
+  #con input[type="message"]:focus, {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 4px #000000;
+  }
+  
+  #con textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #con button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #999999;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: #999999 1px solid;
+  }
+  
+  #con button[type="submit"]:hover {
+    background: #ff237e;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color:white;
+  }
+  
+  #con button[type="submit"]:active {
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 1);
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  #con input:focus,
+  #con textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+  
+  .contact-container{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    position: relative;
+    color: #ff237e;
+  }
+  
+  .contact-section{
+      height: 50rem;
+      background-color: #e6e6e6;
+      margin-top: -10rem;
+  }
+
+  *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+
+
+.carousel {
+  position: relative;
+  width: 60%;
+  height: 50px; 
+  margin: 0 auto;
+  top: 5rem;
+}
+
+.carousel-content {
+  position: relative;
+  overflow: hidden;
+  transition: width .4s;
+  height: 30rem;
+}
+
+.slide {
+  height: 100%;
+  background: url(./img/car-1.jpg);
+  position: absolute;
+  z-index: 1;
+  transition: left .4s cubic-bezier(.47,.13,.15,.89);
+}
+
+.slide-2 {
+    background: url(./img/car.jpg);
+}
+
+.slide-3 {
+    background: url(./img/AboutCard1.jpg);
+}
+
+.slide-4 {
+    background: url(./img/AboutCard3.jpg);
+}
+
+.slide-5 {
+    background: url(./img/engineering-blueprint.jpg);
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  background-color: rgba(150,150,150,.3);
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: white;
+  -webkit-user-select: none;
+  margin-top: 11rem;
+}
+
+.nav-left {
+  left: -25px;
+}
+
+.nav-right {
+  right: -25px;
+}
+
+.carousel-arrow-icon-left {
+  margin-left: 1.5rem;
+  margin-top: 1.3rem;
+  border: solid rgb(235, 235, 235);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  height:1rem;
+  width: 1rem;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.carousel-arrow-icon-right {
+    margin-left: 1.2rem;
+    margin-top: 1.3rem;
+    border: solid rgb(235, 235, 235);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    height:1rem;
+    width: 1rem;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.card-section{
+    height: 45rem;
+    background-color: #ffffff;
+    border-top: 2px solid #e2e2e2;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: black;
+    height: 20rem;
+    width: 20rem;
+}
