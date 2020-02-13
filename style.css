@@ -400,8 +400,9 @@ footer{
   .caption h3{
     font-size: 1.4rem;
   }
-  .info-col{
-    margin-left: -100%!important;
+  .landing-info{
+    margin-left: -3%!important;
+    font-size: .8rem;
   }
 }
 
