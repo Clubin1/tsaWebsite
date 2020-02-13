@@ -55,9 +55,6 @@ body {
   color: rgb(212, 212, 212)!important;
 }
 
-.navbar-dark .navbar-nav .nav-item-color:hover {
-}
-
 .button{
   background-color:transparent;
   border-radius: .5rem;
