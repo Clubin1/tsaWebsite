@@ -693,3 +693,10 @@ h3.gfx-header {
     min-width: 100%;
   }
 }
+
+@media(max-width:1004px){
+  .gfx-section{
+    height: 70rem!important;
+    min-height: 70rem!important;
+  }
+}
