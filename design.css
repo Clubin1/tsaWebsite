@@ -755,3 +755,39 @@ position: relative;
         top:9rem;
     }
 }
+
+@media(max-width:580px) {
+    .slide-caption{
+        font-size: 2rem;
+    }
+    .slide-info{
+        font-size: .9rem;
+    }
+}
+
+@media(max-width:460px) {
+    .slide-caption{
+        font-size: 1.7rem;
+    }
+    .slide-info{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:376px) {
+    .slide-caption{
+        font-size: 1.5rem;
+    }
+    .slide-info{
+        font-size: .7rem;
+    }
+}
+
+@media(max-width:376px) {
+    .slide-caption{
+        font-size: 1.4rem;
+    }
+    .slide-info{
+        font-size: .7rem;
+    }
+}
