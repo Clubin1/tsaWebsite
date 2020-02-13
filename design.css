@@ -588,6 +588,7 @@ position: relative;
     position: relative;
     top:1.5rem;
     color:rgb(46, 46, 46);
+    line-height: 1.6rem;
 }
 .card-name{
     font-size: 1rem;
@@ -678,5 +679,79 @@ position: relative;
     .card-section{
     height: 120rem;
     min-height: 120rem;
+    }
+}
+
+@media(max-width:959px){
+    .section-1{
+        height: 40rem;
+        min-height: 40rem;
+    }
+    .card-1{
+        height: 13rem;
+    }
+    .card-info-2{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:713px){
+    .section-1{
+        height: 50rem;
+        min-height: 50rem;
+    }
+}
+
+@media(max-width:479px){
+    .section-1{
+        height: 80rem;
+        min-height: 80rem;
+    }
+    .card-info-2{
+        line-height: 1.5rem;
+    }
+}
+
+@media(max-width:591px){
+    .contact-title,.card-title{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:680px){
+    .caption h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:544px){
+    .caption h1{
+        font-size: 2.5rem;
+    }
+    .caption h3{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media(max-width:320px){
+    .caption h1{
+        font-size: 2rem;
+    }
+    .caption h3{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 680px) {
+    .caption-1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 476px) {
+    .caption-1{
+        font-size: 1.6rem;
+        top:9rem;
     }
 }
