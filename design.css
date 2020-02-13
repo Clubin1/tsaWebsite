@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -12,6 +13,7 @@ body {
   background-color: #171616!important;
   overflow-x: hidden;
 }
+
 
 /* Nav bar */
 .navbar {
@@ -791,7 +793,3 @@ position: relative;
         font-size: .7rem;
     }
 }
-
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255,102,203)!important;
-  } 
