@@ -746,17 +746,23 @@ position: relative;
 
 @media(max-width: 680px) {
     .caption-1{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
 
 @media(max-width: 476px) {
     .caption-1{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         top:9rem;
     }
 }
 
+@media(max-width: 320px) {
+  .caption-1{
+      font-size: 1.4rem;
+      top:9rem;
+  }
+}
 @media(max-width:580px) {
     .slide-caption{
         font-size: 2rem;
@@ -797,4 +803,11 @@ position: relative;
   .slide-info{
       font-size: .6rem;
   }
+  .card-1{
+    width: 10rem;
+  }
+  #contact-wrapper{
+    width:17rem;
+  }
+}
 }
