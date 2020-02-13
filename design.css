@@ -117,7 +117,7 @@ body {
   /*Section 1*/
   .section-1{
       height: 30rem;
-      min-height: 30rem;
+      min-height:30rem;
       background-color:white;
       border-bottom: 2px solid rgb(219, 219, 219);
   }
@@ -128,6 +128,11 @@ body {
   .car-section{
       height: 40rem;
       background-color: #ffffff;
+  }
+  .card-title, .contact-title{
+      font-size: 2.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
   }
 /* Footer Section*/
 .lower-footer{
@@ -231,8 +236,6 @@ body {
       width: 100%;
       min-width: 100%;
     }
-    .col-container{
-    }
   }
 
   * {
@@ -244,7 +247,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
   
@@ -329,7 +331,7 @@ body {
   #con input[type="email"]:focus,
   #con input[type="tel"]:focus,
   #con input[type="url"]:focus,
-  #con input[type="message"]:focus, {
+  #con input[type="message"]:focus{
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
@@ -432,6 +434,8 @@ body {
 .slide {
   height: 100%;
   background: url(./img/car-1.jpg);
+  background-position:center;
+  background-size: cover;
   position: absolute;
   z-index: 1;
   transition: left .4s cubic-bezier(.47,.13,.15,.89);
@@ -439,18 +443,26 @@ body {
 
 .slide-2 {
     background: url(./img/car.jpg);
+    background-position:center;
+    background-size: cover;
 }
 
 .slide-3 {
     background: url(./img/AboutCard1.jpg);
+    background-position:center;
+    background-size: cover;
 }
 
 .slide-4 {
     background: url(./img/AboutCard3.jpg);
+    background-position:center;
+    background-size: cover;
 }
 
 .slide-5 {
     background: url(./img/engineering-blueprint.jpg);
+    background-position:center;
+    background-size: cover;
 }
 
 .nav {
@@ -506,7 +518,7 @@ body {
 .card-section{
     height: 45rem;
     background-color: #ffffff;
-    border-top: 2px solid #e2e2e2;
+    min-height: 45rem;
 }
 
 .card-container{
@@ -514,9 +526,47 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.card-info{
+    font-size: .8rem;
+    text-align: left!important;
+    width: 100%;
+    position: relative;
+    top:1.5rem;
+    color:rgb(46, 46, 46);
+}
+.card-name{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top:1.5rem;
+}
+.car-img{
+    height:11rem;
+    width:17rem;
+    transition: all 200ms ease;
+}
+.car-img:hover{
+    opacity: .8;
 }
 .item{
-    background-color: black;
-    height: 20rem;
-    width: 20rem;
+    background-color: rgb(255, 255, 255);
+    height: 25rem;
+    width: 17rem;
+}
+
+@media(max-width:1087px) {
+    .card-section{
+    height: 67rem;
+    min-height: 67rem;
+}
+
+@media(max-width:543px) {
+    .card-section{
+    height: 120rem;
+    min-height: 120rem;
+    }
 }
