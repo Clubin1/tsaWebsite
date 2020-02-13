@@ -66,46 +66,58 @@ body {
 }
 
 /* Jumbotron and it's contents */
-.landing{
-  background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.19)), url(img/150507_olympic_details_002.jpg);
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  z-index: -1000;
-  min-height: 100vh;
+
+/* Landing Image */
+.home-inner{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.19)),url(./img/150507_olympic_details_002.jpg);
+  opacity: .7;
   
 }
 
+
+  /* Landing Text */
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    padding-left: 5rem;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    animation: fadeIn 2s;
+  }
+  /* Landing Heading1 */
+  .caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+  }
+
+  /* Landing Heading3 */
+  .caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+  }
+
+.btn{
+    color:rgb(255, 255, 255);
+    border-radius: 0;
+    border:#ffffff 2px solid;
+  }
+  .btn:hover{
+    background-color:#ff237e;
+    color:rgb(255, 255, 255);
+    border:#ff237e 2px solid;
+
+  }
 #blackOverlay {
   z-index: 10;
   background-color:#000;opacity:0.0;position:absolute;top:0;width:100%;   height: 100vh; min-height: 100vh;
 }
 
-
-.caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 38%;
-  z-index: 1;
-  color: white;
-  animation: fadeIn 2s;
-  z-index: -1000;
-}
-
-.caption h1 {
-  font-size: 3.8rem;
-  font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
-}
-
-.caption h3 {
-  font-size: 2rem;
-  text-shadow: .1rem .1rem .5rem black;
-  color:rgb(196, 196, 196)!important;
-  margin-top: -1rem;
-}
 
 .info-col{
   display: flex;
@@ -367,16 +379,29 @@ footer{
 @media (max-width:767px) {
   .caption h1{
     text-align: center;
+    margin-left: -4rem;
   }
   .caption h3{
     text-align: center;
+    margin-left: -2.7rem;
   }
   .landing-info{
     text-align: center;
-    margin-left: 13%;
+    margin-left: 5%;
   }
   .info-col{
     margin-left: -6%;
+  }
+}
+@media(max-width:380px){
+  .caption h1{
+    font-size: 2.3rem;
+  }
+  .caption h3{
+    font-size: 1.4rem;
+  }
+  .info-col{
+    margin-left: -100%!important;
   }
 }
 
