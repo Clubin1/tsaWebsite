@@ -434,6 +434,7 @@ position: relative;
 .nero-img{
     position: relative;
     top: -6rem;
+    left: 4rem;
 }
 
 
@@ -518,12 +519,15 @@ position: relative;
 }
 
 .nav-left {
+  left: -25px;
 }
 
 .nav-right {
+  right: -25px;
 }
 
 .carousel-arrow-icon-left {
+  margin-left: 1.5rem;
   margin-top: 1.3rem;
   border: solid rgb(235, 235, 235);
   border-width: 0 3px 3px 0;
@@ -535,6 +539,7 @@ position: relative;
   -webkit-transform: rotate(135deg);
 }
 .carousel-arrow-icon-right {
+    margin-left: 1.2rem;
     margin-top: 1.3rem;
     border: solid rgb(235, 235, 235);
     border-width: 0 3px 3px 0;
@@ -786,4 +791,10 @@ position: relative;
     .slide-info{
         font-size: .7rem;
     }
+}
+
+@media(max-width:320px) {
+  .slide-info{
+      font-size: .6rem;
+  }
 }
