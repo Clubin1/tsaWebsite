@@ -791,3 +791,7 @@ position: relative;
         font-size: .7rem;
     }
 }
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203)!important;
+  } 

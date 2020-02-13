@@ -1178,3 +1178,51 @@ h3.gfx-header {
     margin-top: 1rem;
   }
 }
+@media(max-width:1004px){
+  .graphic-section{
+    height: 110rem!important;
+    min-height: 110rem!important;
+  }
+}
+
+@media(max-width:668px){
+  .graphic-section{
+    height: 210rem!important;
+    min-height: 210rem!important;
+  }
+}
+
+@media(max-width:680px){
+  .caption h1{
+      font-size: 3rem;
+  }
+}
+
+@media(max-width:544px){
+  .caption h1{
+      font-size: 2.5rem;
+  }
+  .caption h3{
+      font-size: 1.8rem;
+  }
+}
+
+
+@media(max-width:320px){
+  .caption h1{
+      font-size: 2rem;
+  }
+  .caption h3{
+      font-size: 1.3rem;
+  }
+}
+
+@media(max-width:620px){
+  .timeline-info-1 p{
+      font-size: 1rem!important;
+  }
+  .timeline-title-1 h2{
+      font-size: 1.3rem!important;
+  }
+}
+
