@@ -541,7 +541,6 @@ h3.gfx-header {
   transition: all .2s ease;
   background: #272525;
   position: relative;
-  overflow: hidden;
 }
 .card:hover, .card.hover {
   -webkit-transform: translateY(-4px);
