@@ -614,6 +614,7 @@ h3.gfx-header {
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
+
 .sub-title{
   position: relative;
   top: 7.3rem;
@@ -625,6 +626,7 @@ h3.gfx-header {
   text-decoration: none;
   color: #fff;
 }
+
 .card-content h2, .card-content a h2 {
   font-size: 1rem;
   font-weight: 500;

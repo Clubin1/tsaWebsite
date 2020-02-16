@@ -455,7 +455,7 @@ position: relative;
 
 .slide {
   height: 100%;
-  background: url(./img/car-1.jpg);
+  background: url(./img/ecar.jpg);
   background-position:center;
   background-size: cover;
   position: absolute;
@@ -465,10 +465,13 @@ position: relative;
 .slide-info,.slide-caption{
     position: relative;
     top: 10rem;
-    color:rgb(221, 221, 221);
+    color:rgb(255, 255, 255);
+    font-weight: 700;
     
 }
-
+.color-box{
+  background-color: red;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -478,25 +481,25 @@ position: relative;
 }
 
 .slide-2 {
-    background: url(./img/car.jpg);
+    background: url(./img/car-road-traffic.jpg);
     background-position:center;
     background-size: cover;
 }
 
 .slide-3 {
-    background: url(./img/ecar.jpg);
+    background: url(./img/factory.jpg);
     background-position:center;
     background-size: cover;
 }
 
 .slide-4 {
-    background: url(./img/slide.jpg);
+    background: url(./img/DE_Teaser_01_hires.jpg);
     background-position:center;
     background-size: cover;
 }
 
 .slide-5 {
-    background: url(./img/engineering-blueprint.jpg);
+    background: url(./img/teslablack.jpg);
     background-position:center;
     background-size: cover;
 }
@@ -582,7 +585,6 @@ position: relative;
     top:1.5rem;
     color:rgb(46, 46, 46);
 }
-
 .card-info-2{
     font-size: .9rem;
     width: 100%;
