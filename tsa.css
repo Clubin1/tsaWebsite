@@ -148,7 +148,7 @@ body {
   margin-top: 2%;
 }
 .img-row{
-  height: 15rem;
+  height: 20rem;
   width: 20rem;
   margin-left: 4%;
 }
@@ -418,9 +418,9 @@ CARD STYLING
 /* SECTION STYLES*/
 .graphic-section, .website-section, .development-section
 {
-  height: 85rem;
+  height: 55rem;
   background-color: #171616 !important;
-  min-height: 85rem;
+  min-height: 55rem;
 }
 
 .gfxdesgin-wrapper{
@@ -633,8 +633,6 @@ h3.gfx-header {
   font-size: .8rem;
   font-weight: 400;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -654,8 +652,8 @@ h3.gfx-header {
 
 @media (max-width: 667px) {
   .graphic-section, .website-section, .development-section{
-    height: 130rem;
-    min-height: 130rem;
+    height: rem;
+    min-height: rem;
   }
 }
 
@@ -700,8 +698,8 @@ h3.gfx-header {
 
 @media(max-width:1000px){
   .img-row{
-    height: 10rem;
-    width: 14rem;
+    height: 15rem;
+    width: 15rem;
   }
 }
 
@@ -752,15 +750,13 @@ h3.gfx-header {
 }
 @media(max-width:1004px){
   .graphic-section{
-    height: 110rem!important;
-    min-height: 110rem!important;
+
   }
 }
 
 @media(max-width:668px){
   .graphic-section{
-    height: 210rem!important;
-    min-height: 210rem!important;
+
   }
 }
 
