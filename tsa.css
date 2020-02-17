@@ -651,14 +651,6 @@ h3.gfx-header {
   }
 }
 
-
-@media (max-width: 667px) {
-  .graphic-section, .website-section, .development-section{
-    height: rem;
-    min-height: rem;
-  }
-}
-
 @media(max-width: 500px){
   .caption h1{
     font-size: 3rem;
@@ -750,15 +742,11 @@ h3.gfx-header {
     margin-top: 1rem;
   }
 }
-@media(max-width:1004px){
-  .graphic-section{
-
-  }
-}
 
 @media(max-width:668px){
   .graphic-section{
-
+    height: 80rem;
+    min-height: 80rem;
   }
 }
 
@@ -787,15 +775,6 @@ h3.gfx-header {
   }
 }
 
-@media(max-width:620px){
-  .timeline-info-1 p{
-      font-size: 1rem!important;
-  }
-  .timeline-title-1 h2{
-      font-size: 1.3rem!important;
-  }
-}
-
 @media(max-width:320px){
   .info{
     line-height: 1.3rem!important;
@@ -803,5 +782,11 @@ h3.gfx-header {
   .section-1{
     height: 32rem;
     min-height: 32rem;
+  }
+}
+
+@media(max-width:400px){
+  .card-info{
+    font-size: .5rem!important;
   }
 }
