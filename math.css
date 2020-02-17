@@ -68,16 +68,48 @@ body {
   height: 100%;
 }
 
-.img-container{
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/engineering-blueprint.jpg) no-repeat;
-  background-size: cover;
-  height: 110vh;
-  width: 110%;
-  min-width: 100%;
-  min-height: 100vh;
+/* Landing Image */
+.home-inner{
+  background-image: url(img/car-1.jpg);
+  opacity: .7;
+}
+/* Landing Text */
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  animation: fadeIn 2s;
+  text-transform: uppercase;
+}
+/* Landing Heading1 */
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption-1 {
+  width: 100%;
+  max-width: 100%;
+  top: 8rem;
   position: relative;
-  margin-left: -1rem;
-  margin-top: -1rem;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+/* Landing Heading3 */
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
 }
 
 .col-container{
@@ -219,3 +251,41 @@ body {
     .col-container{
     }
   }
+
+
+@media(max-width:680px){
+  .caption h1{
+      font-size: 3rem;
+  }
+}
+
+@media(max-width:544px){
+  .caption h1{
+      font-size: 2.5rem;
+  }
+  .caption h3{
+      font-size: 1.8rem;
+  }
+}
+
+
+@media(max-width:320px){
+  .caption h1{
+      font-size: 2rem;
+  }
+  .caption h3{
+      font-size: 1.3rem;
+  }
+}
+@media(max-width:580px){
+  .card-info{
+    font-size: .75rem;
+  }
+  .card-title{
+    font-size: 1.5rem;
+  }
+  .info{
+    position: relative;
+    left: -2rem;
+  }
+}

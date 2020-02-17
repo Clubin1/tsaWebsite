@@ -277,3 +277,15 @@ body {
       font-size: 1.3rem;
   }
 }
+@media(max-width:580px){
+  .card-info{
+    font-size: .75rem;
+  }
+  .card-title{
+    font-size: 1.5rem;
+  }
+  .info{
+    position: relative;
+    left: -2rem;
+  }
+}
