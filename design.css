@@ -511,7 +511,7 @@ position: relative;
   position: absolute;
   top: 50%;
   margin-top: -10px;
-  background-color: rgba(150,150,150,.3);
+  background-color: rgba(150, 150, 150, 0.452);
   width: 60px;
   height: 60px;
   z-index: 2;
@@ -519,7 +519,7 @@ position: relative;
   border-radius: 50%;
   border: none;
   outline: none;
-  color: white;
+  color: #ff237e;
   -webkit-user-select: none;
   margin-top: 11rem;
 }
