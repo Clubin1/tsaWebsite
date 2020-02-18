@@ -70,9 +70,16 @@ body {
 
 /* Landing Image */
 .home-inner{
-  background-image: url(img/car-1.jpg);
+  background-image: url(img/engine.jpg);
   opacity: .7;
 }
+#navBar{
+  height: 6rem;
+  transition: all 150ms ease;
+  background-color: rgba(0, 0, 0, .17)!important;
+  font-size: 1rem!important;
+}
+
 /* Landing Text */
 .caption {
   width: 100%;
@@ -287,5 +294,14 @@ body {
   .info{
     position: relative;
     left: -2rem;
+  }
+}
+
+@media(max-width:335px){
+  .card-info{
+    font-size: .7rem;
+  }
+  .card-title{
+    font-size: 1.2rem;
   }
 }

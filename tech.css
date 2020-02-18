@@ -70,9 +70,17 @@ body {
 
 /* Landing Image */
 .home-inner{
-  background-image: url(img/car-1.jpg);
+  background-image: url(img/code.jpeg);
   opacity: .7;
 }
+
+#navBar{
+  height: 6rem;
+  transition: all 150ms ease;
+  background-color: rgba(0, 0, 0, .17)!important;
+  font-size: 1rem!important;
+}
+
 /* Landing Text */
 .caption {
   width: 100%;

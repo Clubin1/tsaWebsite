@@ -22,6 +22,13 @@ body {
   background-color: rgba(0, 0, 0, .3)!important;
   height:5rem;
 }
+#navBar{
+  height: 6rem;
+  transition: all 150ms ease;
+  background-color: rgba(0, 0, 0, .17)!important;
+  font-size: 1rem!important;
+
+}
 
 .navbar-brand img {
   height: 2.125rem;
@@ -70,7 +77,7 @@ body {
 
 /* Landing Image */
 .home-inner{
-  background-image: url(img/car-1.jpg);
+  background-image: url(img/sci.jpg);
   opacity: .7;
 }
 /* Landing Text */
@@ -287,5 +294,14 @@ body {
   .info{
     position: relative;
     left: -2rem;
+  }
+}
+
+@media(max-width:335px){
+  .card-info{
+    font-size: .7rem;
+  }
+  .card-title{
+    font-size: 1.2rem;
   }
 }
