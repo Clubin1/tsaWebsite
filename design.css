@@ -133,8 +133,8 @@ body {
   }
   /*Section 1*/
   .section-1{
-      height: 26rem;
-      min-height:26rem;
+      height: 30rem;
+      min-height:30rem;
       background-color:white;
       border-bottom: 2px solid rgb(219, 219, 219);
   }
@@ -690,8 +690,8 @@ position: relative;
 
 @media(max-width:959px){
     .section-1{
-        height: 40rem;
-        min-height: 40rem;
+        height: 44rem;
+        min-height: 44rem;
     }
     .card-1{
         height: 13rem;
@@ -701,17 +701,17 @@ position: relative;
     }
 }
 
-@media(max-width:713px){
+@media(max-width:756px){
     .section-1{
-        height: 50rem;
-        min-height: 50rem;
+        height: 54rem;
+        min-height: 54rem;
     }
 }
 
 @media(max-width:479px){
     .section-1{
-        height: 80rem;
-        min-height: 80rem;
+        height: 84rem;
+        min-height: 84rem;
     }
     .card-info-2{
         line-height: 1.5rem;

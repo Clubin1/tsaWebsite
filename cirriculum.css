@@ -310,7 +310,8 @@ BODY {
   content: "·";
   font-size: 20px;
   left: 0;
-  color: #fff;
+  color: rgb(96, 139, 168)!important;
+
   display: inline-block;
   padding-right: 5px;
 }
