@@ -213,6 +213,9 @@ body {
     margin-top: 6px;
     max-width: 180px;
   }
+  .fa-linkedin:hover{
+    color:rgb(35, 23, 204);
+  }
   
   .footer-distributed .footer-right a {
     display: inline-block;

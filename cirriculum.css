@@ -316,6 +316,10 @@ BODY {
   padding-right: 5px;
 }
 
+.fa-linkedin:hover{
+  color:rgb(35, 23, 204);
+}
+
 .footer-distributed .footer-links .link-1:before {
   content: none;
 }

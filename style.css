@@ -511,7 +511,7 @@ and (max-device-width : 1024px) {
 }
 }
 /****Footer icons color*****/
-.fa-facebook:hover{
+.fa-linkedin:hover{
   color:rgb(35, 23, 204);
 }
 
@@ -524,7 +524,7 @@ and (max-device-width : 1024px) {
 .fa-github:hover{
   color:rgb(80, 80, 80);
 }
-.fa-github, .fa-facebook, .fa-instagram, .fa-twitter{
+.fa-github, .fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin{
   transition: 200ms all ease;
 }
 

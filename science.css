@@ -225,6 +225,9 @@ body {
     margin-left: 3px;
     transition:all .25s;
   }
+  .fa-linkedin:hover{
+    color:rgb(35, 23, 204);
+  }
   
   .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
   
